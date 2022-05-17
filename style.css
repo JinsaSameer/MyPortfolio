@@ -41,6 +41,7 @@ html,body  {
     background: lightblue;
     color: #13293d;
     font-size: xx-large;
+
   }
   
    nav a {
@@ -81,10 +82,10 @@ html,body  {
     display: flex;
     justify-content: left;
     color: #13293d;
-   margin: 10px;
-   padding-top: 60px;
-   text-align: left;
-   margin-top: 20px;
+    margin: 10px;
+    padding-top: 60px;
+    text-align: left;
+    margin-top: 20px;
     /*border-right: solid 4px #13293d;*/
 
   }
@@ -93,100 +94,139 @@ html,body  {
     display: flex;
     /*justify-content: left;*/
     border-left: solid 4px #13293d;
-    margin-left: 20px;
+    margin-left: 1%;
     
-    padding-left: 50px;
+    padding-left: 70px;
   }
-  .flex-row1 {
-    text-align: left;
-    display: flex;
-    justify-content: left;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-/*.image {
-      border-left: 30px;
-      border-left: solid 4px #13293d;
-       margin-left: 50px;
-       padding: 20px;
-}*/
+  
 
 .container {
-  margin-top: auto;
+  margin-top: -5%;
   width: 1000px;
-  height: 850px;
-  /*margin: 20px;*/
-  border-left:  solid 4px #13293d;
+  height: 750px;
+  margin-left: 4%;
+  border-left:  solid 4px #13293d ;
 }
 .container #img1 {
+  margin-top: 30px;
   margin-left: 80px;
-  padding: 20px;
-  height: 300px;
-  width: 500px;
+  height: 200px;
+  width: auto;
 
 }
 .container #img1:hover {
-  opacity: .5;
+  opacity: .7 !important;
+  background-color: blue;
+  filter: alpha(opacity=70) !important;
+  box-shadow: 0 0 0px #000000 !important
+
+  
+  
+  
 }
  .container #img2 {
-  margin-left: 20px ;
-  height: 300px;
-  width: 400px;
+  margin-left: 20px;
+  height: 170px;
+  width: auto;
 }
 .container #img2:hover {
   opacity: .5;
 }
 .container #img3 {
-  margin-top: 20px;
   margin-left: 20px;
-  
-  height: 300px;
-  width: 400px;
+  height: 170px;
+  width: auto;
 }
 .container #img3:hover {
   opacity: .5;
 }
 .container #img4 {
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 80px;
   height: 250px;
   width: 400px;
 }
 .container #img4:hover {
   opacity: .5;
 }
-.flex-row2 {
-  text-align: left;
+
+.row {
+  display: flex;
+  align-items: center;
+  
+  margin-left: 60px;
+    margin-top: 30px;
+}
+
+#first-section{
+  display: flex;
+ padding-top: -10%;
+  margin-left: 10px;
+}
+#second-section{
+  display: flex;
+ 
+
+  margin-left: 10px;
+}
+#contact-me {
   display: flex;
   justify-content: left;
-  flex-direction: row;
-  flex-wrap: wrap;
+  margin-top: 25%;
+  margin-left: auto;
+  padding-right: 10px;
+  margin-left: 1%;
 }
-.contacts {
-  display: flex;
-  justify-content: flex-end;
-  border-left: solid 4px #13293d;
-  
-  padding: 20px;
-  margin-left: 20px;
-  
-  flex-direction: row;
+
+ #contact-info {
+    
+    margin-top: 5px;
+    padding-left: 70px;
+    border-left: solid 4px black;
+    height :200px;
+    width :200px;
     
 }
+
 li {
   list-style-type: none;
   display: flex;
   flex-direction: row;
 }
-
-@media screen and (max-width: 768px) {
+#contact-info ul li:not(:last-child) {
+    margin-bottom: 20px;
+    display : flex;
+    justify-content:  space-between;
+}
+a:hover{
+  background-color: red;
+}
+@media screen and (max-width: 576px) {
   .main-header,
   nav {
     display: block;
   }
-}
-@media screen and (max-width: 576px) {
-  body{
+  #second-section{
     display: block;
   }
 }
+
+
+/*@media screen and (max-width: 375px) {
+  body {
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  body {
+    background-color: pink;
+  }
+}
+*/
