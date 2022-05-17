@@ -38,6 +38,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ## Mock-Up
+![Screenshot (35)](https://user-images.githubusercontent.com/101385521/168740382-e97275ba-4287-420d-a089-7218e8978166.png)
 
+![Screenshot (37)](https://user-images.githubusercontent.com/101385521/168740408-f2b5d62a-e1c7-4863-a53a-698bbca38b1f.png)
 
 
