@@ -1,8 +1,7 @@
 # 02 Advanced CSS: My Portfolio
 This is my Portfolio.If you click on the items on nav bar it will points to the specific region you selected.
 
-#Technology Used
-
+Technology Used
 HTML
 CSS
 Github
