@@ -16,7 +16,9 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 
 ##Deployment link
-git@github.com:JinsaSameer/MyPortfolio.git
+'''
+https://jinsasameer.github.io/MyPortfolio/
+
 
 
 ## Mock-Up
